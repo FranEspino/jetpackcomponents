@@ -45,25 +45,25 @@ Install the dependency
 Install the dependency
 
 ```bash
-   implementation "com.github.FranEspino:jetpackcomponents:1.0.0"
+    implementation 'com.github.FranEspino:jetpackcomponents:1.0'
 ```
     
 ## Usage/Examples
 
 ```kotlin
-import com.fraporitmos.jetpackcomponents.components.Switch.
+import com.fraporitmos.jetpackcomponents.SwitchM3
 
 
 @Preview
 @Composable
 fun SwitchLayout() {
 
-         val (state1, onStateChange1) = rememberSaveable { mutableStateOf(true) }
+         val (state, onStateChange) = rememberSaveable { mutableStateOf(true) }
 
          SwitchM3(
-                modifier = Modifier.padding(top = 2.dp),
-                state = state1,
-                onStateChange = { onStateChange1(it) }
+                modifier = Modifier,
+                state = state,
+                onStateChange = { onStateChange(it) }
             )
 
 }
