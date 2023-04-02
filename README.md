@@ -34,11 +34,7 @@ In summary, jepackcomponents is a powerful and easy-to-use component library tha
       ...
   }
 ```
-Install the dependency
 
-```bash
-   implementation "com.github.FranEspino:jetpackcomponents:1.0.0"
-```
 
 ## Installation
 
